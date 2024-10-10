@@ -2,6 +2,7 @@ import { RouteObject } from 'react-router-dom'
 
 import { ROUTE_CONSTANTS } from 'constants/routeConstants'
 import { About, Fetch, Home, NotFound } from 'pages'
+import { Job } from 'pages/layout-page/Job'
 
 const routes: RouteObject[] = [
   {
@@ -23,6 +24,10 @@ const routes: RouteObject[] = [
   {
     path: ROUTE_CONSTANTS.NOT_FOUND,
     element: <NotFound />
+  },
+  {
+    path: '/Job',
+    element: <Job />
   },
   {
     path: 'sw.js',
