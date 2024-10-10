@@ -1,0 +1,73 @@
+export const jobFeed = [
+    {
+      id: 1,
+      position: "Software Engineer",
+      company: "Stellar Solutions",
+      description: "Responsible for developing, testing, and maintaining scalable software applications. Collaborates with cross-functional teams to deliver high-quality solutions.",
+      salary: "$85,000 - $95,000",
+    },
+    {
+      id: 2,
+      position: "UI/UX Designer",
+      company: "Blue Horizon Technologies",
+      description: "Designs user-friendly interfaces and ensures seamless user experiences. Works closely with the development team to translate wireframes into functional applications.",
+      salary: "$75,000 - $85,000",
+    },
+    {
+      id: 3,
+      position: "Data Scientist",
+      company: "Quantum Innovations",
+      description: "Analyzes large sets of structured and unstructured data to provide actionable insights. Develops predictive models and works on data-driven decision-making processes.",
+      salary: "$95,000 - $100,000",
+    },
+    {
+      id: 4,
+      position: "DevOps Engineer",
+      company: "Fusion Dynamics",
+      description: "Manages infrastructure and deployment processes. Works on continuous integration and delivery pipelines to ensure rapid and reliable software releases.",
+      salary: "$88,000 - $98,000",
+    },
+    {
+      id: 5,
+      position: "Project Manager",
+      company: "Visionary Creations",
+      description: "Leads project teams, defines project scope, and manages timelines and budgets. Ensures successful project delivery through effective communication and risk management.",
+      salary: "$90,000 - $100,000",
+    },
+    {
+      id: 6,
+      position: "Cloud Architect",
+      company: "Synergy Systems",
+      description: "Designs and implements cloud infrastructure solutions. Ensures security, scalability, and cost-efficiency while managing cloud environments across multiple platforms.",
+      salary: "$105,000 - $120,000",
+    },
+    {
+      id: 7,
+      position: "Front-End Developer",
+      company: "Tech Innovators Inc.",
+      description: "Develops responsive and dynamic web applications using modern front-end technologies. Works closely with designers to create visually appealing and functional interfaces.",
+      salary: "$80,000 - $100,000",
+    },
+    {
+      id: 8,
+      position: "Network Engineer",
+      company: "SecureNet Solutions",
+      description: "Designs and manages secure network infrastructure. Ensures network reliability, performance, and security across all business units and remote locations.",
+      salary: "$78,000 - $99,000",
+    },
+    {
+      id: 9,
+      position: "Cybersecurity Analyst",
+      company: "CyberShield Corp.",
+      description: "Monitors, detects, and mitigates cybersecurity threats. Conducts vulnerability assessments and ensures the implementation of best practices for network and data security.",
+      salary: "$92,000 - $100,000",
+    },
+    {
+      id: 10,
+      position: "Mobile App Developer",
+      company: "AppMasters",
+      description: "Designs and develops mobile applications for both iOS and Android platforms. Collaborates with the design and back-end teams to deliver seamless user experiences.",
+      salary: "$85,000 - $100,000",
+    },
+  ];
+  

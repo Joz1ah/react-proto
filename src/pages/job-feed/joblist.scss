@@ -1,0 +1,33 @@
+
+
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: var(--primary-color);
+
+  .job-list-item {
+    flex: 0 0 calc(33.333% - 14px);
+    max-width: calc(33.333% - 14px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .job-list {
+    .job-list-item {
+      flex: 0 0 calc(50% - 10px);
+      max-width: calc(50% - 10px);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .job-list {
+    .job-list-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}
